@@ -5,7 +5,7 @@ MAINTAINER USU Software AG
 
 RUN \
   apt-get update && \
-  apt-get install -yq curl git && \
+  apt-get install -yq curl git-core && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* 
   
